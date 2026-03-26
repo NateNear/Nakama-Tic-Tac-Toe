@@ -1,0 +1,13 @@
+{
+  "name": "tictactoe-nakama",
+  "version": "1.0.0",
+  "description": "Nakama server-side TypeScript for TicTacToe",
+  "scripts": {
+    "build": "esbuild src/main.ts --bundle --platform=neutral --target=es2020 --outfile=../nakama-data/modules/tictactoe.js",
+    "build:watch": "esbuild src/main.ts --bundle --platform=neutral --target=es2020 --outfile=../nakama-data/modules/tictactoe.js --watch"
+  },
+  "devDependencies": {
+    "esbuild": "^0.19.0",
+    "typescript": "^5.0.0"
+  }
+}

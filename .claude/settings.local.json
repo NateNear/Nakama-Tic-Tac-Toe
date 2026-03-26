@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(npm search:*)",
+      "Bash(curl -s \"https://raw.githubusercontent.com/heroiclabs/nakama-project-template/master/runtime.d.ts\" -o /c/Users/Harindra.Reddy/Desktop/assignment/nakama/runtime.d.ts)",
+      "Bash(curl -v \"https://raw.githubusercontent.com/heroiclabs/nakama-project-template/master/runtime.d.ts\")",
+      "Bash(curl -sL \"https://raw.githubusercontent.com/heroiclabs/nakama/master/data/modules/runtime.d.ts\" -o /c/Users/Harindra.Reddy/Desktop/assignment/nakama/runtime.d.ts)",
+      "Bash(curl -sL \"https://raw.githubusercontent.com/heroiclabs/nakama-common/main/runtime/runtime.d.ts\" -o /c/Users/Harindra.Reddy/Desktop/assignment/nakama/runtime.d.ts)",
+      "Bash(curl -sL \"https://api.github.com/repos/heroiclabs/nakama-common/git/trees/main?recursive=1\")",
+      "Bash(curl -sL \"https://api.github.com/repos/heroiclabs/nakama-common/contents/\")",
+      "Bash(curl -sL \"https://raw.githubusercontent.com/heroiclabs/nakama-common/master/runtime/runtime.d.ts\" -o /c/Users/Harindra.Reddy/Desktop/assignment/nakama/runtime.d.ts)",
+      "Bash(curl -sL \"https://api.github.com/repos/heroiclabs/nakama-common/contents/runtime\")",
+      "Bash(npm run:*)",
+      "Bash(docker-compose up:*)",
+      "Bash(Start-Process \"C:\\\\Program Files\\\\Docker\\\\Docker\\\\Docker Desktop.exe\")",
+      "Read(//c/Program Files/Docker//**)",
+      "Read(//c/Program Files \\(x86\\)/**)",
+      "Bash(npm view:*)"
+    ]
+  }
+}

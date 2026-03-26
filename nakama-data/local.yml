@@ -1,0 +1,24 @@
+name: nakama
+data_dir: /nakama/data
+
+logger:
+  level: DEBUG
+  stdout: true
+
+console:
+  username: admin
+  password: password
+
+runtime:
+  path: /nakama/data/modules
+  js_entrypoint: tictactoe.js
+
+socket:
+  port: 7350
+  protocol: tcp
+
+session:
+  token_expiry_sec: 7200
+
+leaderboard:
+  blacklist_rank_cache: []

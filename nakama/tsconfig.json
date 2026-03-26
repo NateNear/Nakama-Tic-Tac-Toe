@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "lib": ["ES6"],
+    "strict": false,
+    "esModuleInterop": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "outDir": "../nakama-data/modules",
+    "rootDir": "src",
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*", "runtime.d.ts"],
+  "exclude": ["node_modules"]
+}
